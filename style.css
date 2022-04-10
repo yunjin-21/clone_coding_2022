@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    overflow: hidden; 
+}
+.game-text {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    font-size: 50px;
+}
+
+.game-text > button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background: blue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body .wrapper h1 {
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+h1,
+.score{
+    background-color: aquamarine;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.control .play,
+.control .pause {
+    color: aquamarine;
+    background: white;
+    border: none;
+    font-size: 50px;
+    display: block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.playground > ul {/*자식 선택자와 자손 선택자*/
+    border: 1px solid black;
+    width: 250px;
+    margin: 0 auto;
+
+
+}
+
+.playground > ul > li {
+    width: 100%;
+    height: 25px;
+}
+
+.playground > ul > li > ul {
+    display: flex;
+}
+
+.playground > ul > li > ul > li {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid #ccc;
+}
+
+.tree {
+    background: #67c23a;
+}
+
+.bar {
+    background: salmon;
+}
+
+.tree {
+    background: aquamarine;
+}
+
+.zee {
+    background: palevioletred
+}
+
+.elLeft {
+    background: skyblue;
+}
+
+.elRight {
+    background: lightseagreen;
+}
+
+.square {
+    background: plum;
+}
